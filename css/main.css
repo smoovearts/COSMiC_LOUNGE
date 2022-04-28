@@ -1,0 +1,548 @@
+/* General Styles */ 
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #212121;
+	background-color: #C9CFF4;
+	/*max-width: 30rem;*/
+	margin: auto;
+}
+
+a {
+	color: #B2B8DD;
+	text-decoration: none;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;		
+}
+
+li {
+	display: inline-block;
+}
+
+/*home page img*/
+.hero {
+  position: relative;
+  background:url(../img/home_image.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  height: 60vh;
+}
+
+.hero-text {
+	width: calc(100% - 3rem);
+	position: absolute;
+	/*bottom: 2.25rem;*/
+	top: 50%;
+	transform: translateY(-50%);
+	right: 1.5rem;
+	text-align: right;
+	display: flex;
+	justify-content: space-between;
+}
+
+.text h1 {
+	/*position: absolute;
+  color: #F18C31;
+  top: 36%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  width: 55%;*/
+  text-align: center;
+  font-size: 1.75rem;
+  font-style: italic;
+  line-height: 2rem;
+  color: #F18C31;
+}
+
+.text a {
+	color: white;
+	background-color: #B2B8DD;
+	border-radius: .3rem;
+	border: .4rem solid #B2B8DD;
+	/*position: absolute;*/
+	/*align-content: right;*/
+	font-size: .75rem;
+	font-style: italic;
+	display: inline-block;
+}
+
+.text a:hover {
+	background-color: #F18C31;
+	border: .4rem solid #F18C31;
+}
+
+.serviceshero {
+  position: relative;
+  background:url(../img/home_image.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  background-position: center center;
+  height: 13vh;
+}
+
+@media screen and (min-width: 40em){
+	.serviceshero {
+	background-size: cover;
+	position: relative;
+	background-position: center center;
+	height: 13vh;
+}
+}
+
+.logo {
+	height: 5rem;
+
+	/*max-width: 180px;
+	position: absolute;
+	top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+*/}
+
+.serviceslogo {
+	max-width: 5rem;
+	margin: .75rem;
+	/*position: absolute;
+	top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+*/}
+
+.service img
+	a {
+  color: darkorange;
+}
+
+
+
+/* Header */
+
+h1 {
+	text-align: center;
+	color: #2E2D75;
+	font-weight: 400;
+	font-size: 3.5rem;
+	margin: 0rem;
+
+}
+
+h2 {
+	text-align: center;
+	color: #2E2D75;
+	font-weight: 400;
+	font-size: 3.5rem;
+	margin-bottom: 2rem;
+}
+
+h3 {
+	color: #2E2D75;
+	font-weight: 500;
+	font-size: 2.5rem;
+	margin: 0rem;
+	text-align: center;
+	padding-bottom: .75rem;
+}
+
+.fa-solid {
+	font-size: 1.5rem;
+	padding-left: .5rem;
+	color: #F6F7FA;
+}
+
+.fa-solid:hover {
+	color: #2E2D75;
+}
+
+header {
+	background-color: #2E2D75;
+	border-bottom: .75rem solid #F18C31;
+	text-align: center; 
+	
+}
+
+@media screen and (min-width: 40em){
+
+}
+
+img.logo {
+
+}
+
+header a {
+	color: #F6F7FA;
+	padding: 0.5rem;
+	font-size: 1.25rem;
+
+}
+
+header a:hover {
+	color: #C9CFF4;
+}
+
+header a.ser {
+	border-bottom: 2px solid #F18C31;
+	padding-bottom: .25rem;
+	color: #F18C31;
+} 
+
+header a.curr {
+	border-bottom: 2px solid #F18C31;
+	padding-bottom: .25rem;
+	color: #F18C31;
+} 
+
+header a.curr:hover {}
+
+header .logo{
+	margin-bottom: 1.5rem;
+	height: 4rem;
+	display: block;
+	margin: auto;
+}
+
+header nav {
+	margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 40em) {
+	header nav {
+		margin-top: 0rem;
+	}
+}
+/* Main Content */
+
+.detail p {
+		 font-size: 1.25rem;
+		 color: #2E2D75;
+		 text-align: center;
+		 margin-bottom: 2rem;
+		 margin-top: 1rem;
+}
+
+.detailpage {
+	padding: 1.5rem;
+} 
+
+@media screen and (min-width: 40em){
+	.detailpage {
+		display: flex;
+		justify-content: space-between;
+		max-width: 75rem;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+	.detailpage .detail {
+		width: 60%;
+	}
+	.detailpage .side {
+		width: 35%;
+	}
+	.detail p {
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (min-width: 40em){
+	/*main {
+		display: flex;
+		justify-content: space-between;
+		max-width: 75rem;
+		margin-left: auto;
+		margin-right: auto;
+
+	}*/
+}
+
+.detail img {
+	width: 100%;
+	border-radius: 1.5rem
+}
+
+
+@media screen and (min-width: 40em) {
+	.main-content {
+		width: 60%;
+	}
+}
+
+p {
+	font-size: 1.5rem;
+	color: #2E2D75;
+	text-align: center;
+	padding-top: 1.5rem;
+}
+
+.main-content {
+	padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.main-content h1 {
+	text-align: center;
+	color: #2E2D75;
+	font-weight: 400;
+	font-size: 3rem;
+	margin: 0rem;
+}
+
+
+/*@media screen and (min-width: 40em){
+	.side-content {
+  width: 35%;
+}*/
+
+.main-content img,
+.side-content img {
+	width: 100%;
+	border-radius: 1.5rem;
+	margin-bottom: .5rem;
+
+}
+
+ .aboutmain-content h1 {
+	text-align: center;
+	color: #2E2D75;
+	font-weight: 400;
+	font-size: 3.5rem;
+	margin-bottom: 2rem;
+	margin-top: 3rem;
+	line-height: 3.5rem;
+}
+
+.aboutmain-content p {
+	padding: 1.5rem;
+}
+
+.about-content img {
+	width: 50%;
+}
+
+.about-content h1 {
+	/*text-align: center;*/
+	color: #2E2D75;
+	font-weight: 400;
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+	margin-top: 3rem;
+	line-height: 3.5rem;
+}
+
+@media screen and (min-width: 40em){
+	.about-content h1 {
+		font-size: 3.5rem;
+	}
+
+.aboutmain-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+}
+
+
+.home-services .side-content {
+		padding: .5rem 1.5rem 3rem 1.5rem;
+		display: grid;
+    grid-gap: 1rem;
+    padding: 1rem;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+@media screen and (min-width: 40em) {
+	.home-services .side-content {
+			padding: .5rem 1.5rem 3rem 1.5rem;
+			display: flex;
+			justify-content: space-between;
+	    max-width: 1024px;
+	    margin: 0 auto;
+	}
+
+	.home-services .side-content .service {
+		width: 32%;
+	}
+}
+
+.service-page .side-content {
+		padding: .5rem 1.5rem 3rem 1.5rem;
+		display: grid;
+    grid-gap: 1rem;
+    padding: 1rem;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.service-page .side-content {
+margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 40em) {
+	.service-page .side-content {
+			padding: .5rem 1.5rem 3rem 1.5rem;
+			display: flex;
+			justify-content: space-between;
+	    /*grid-gap: 1rem;
+	    padding: 1rem;*/
+	    max-width: 1024px;
+	    margin: 0 auto;
+	}
+	.service-page .side-content {
+	width: 32;
+	}
+}
+
+.side-content h2,
+.side-content h3 {
+	color: #2E2D75;
+	font-weight: 400;
+	font-size: 2.25rem;
+	margin-bottom: .5rem;
+	margin-top: 0rem;
+	text-align: center;
+	/*font-style: italic;*/
+}
+
+.footer h3 {
+	color: #2E2D75;
+	font-weight: 400;
+	font-size: 2rem;
+	margin-bottom: .5rem;
+	text-align: center;
+	margin-top: .75rem;
+}
+
+.side-content h2 {
+	text-align: center;
+	color: #2E2D75;
+	font-weight: 400;
+	font-size: 2.5rem;
+	border-bottom: 1.5px solid #2E2D75;
+	margin-bottom: 2rem
+}
+
+
+
+.service a {
+	display: inline-block;
+	text-decoration: none;
+	border: .15rem solid #F6F7FA;
+	padding: 1rem;
+	border-radius: 1.5rem;
+}
+
+.service img {
+	width: 100%;
+	border-radius: 1.5rem;
+}
+
+.service h2 {
+	margin-bottom: .5rem;
+}
+
+.service p {
+	margin-top: 0;
+}
+
+@media screen and (min-width: 40em){
+	.service p {
+  	font-size: 1.25rem;
+  }
+}
+
+.footer{
+	z-index: 1;
+}
+
+.footer dt{
+	text-align: center;
+	font-size: 1.25rem;
+	color: #2E2D75;
+}
+
+.footer dd{
+	margin-left: 0;
+	margin-bottom: 0rem;
+	text-align: center;
+	color: #2E2D75;
+}
+
+.footer address {
+	font-style: normal;
+	text-align: center;
+	margin-bottom: -.5rem;
+	font-size: 1.25rem;
+	color: #2E2D75;
+	margin-top: .5rem;
+}
+
+.phone {
+	text-align: center;
+}
+
+.phone a {
+	color: #2E2D75;
+	font-size: 1.25rem;
+}
+
+.phone a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.service a:hover  {
+	background-color: #F6F7FA;
+	border-radius: 1.5rem
+}
+
+.service:hover .fa-solid {
+	color: #2E2D75;
+}
+
+.logistics {
+	background: url(../img/transparenthelmet.svg) no-repeat 50% 50%;
+}
+
+.watermark img {
+	position: absolute;
+  top: 262%;
+  left: 26%;
+  max-width: 24rem;
+  z-index: 2;
+}
+
+/* footer */
+
+footer {
+	background-color: #F6F7FA;
+	padding: 2.5rem 1.5rem;
+	text-align: center; 
+	color: #2E2D75;
+	/*word-spacing: .25rem;*/
+}
+
+@media screen and (min-width: 40em){
+	footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+footer p {
+	margin-top: 0rem;
+	word-spacing: 0rem;
+	font-size: 1rem;
+	font-style: italic;
+}
+
+.fa-brands {
+	color: #F18C31;
+	font-size: 2rem;
+	padding: .75rem;
+}
+
+.fa-brands:hover {
+	color: #C9CFF4;
+}
